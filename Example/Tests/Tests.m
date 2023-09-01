@@ -2,8 +2,8 @@
 //  CXTableViewKitTests.m
 //  CXTableViewKitTests
 //
-//  Created by shenchunxing on 09/01/2023.
-//  Copyright (c) 2023 shenchunxing. All rights reserved.
+//  Created by shenchunxing on 09/25/2021.
+//  Copyright (c) 2021 shenchunxing. All rights reserved.
 //
 
 @import XCTest;

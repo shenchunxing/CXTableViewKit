@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06F7D45C2AA17C8F00F1EEA0 /* CXMessageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F7D4592AA17C8F00F1EEA0 /* CXMessageItem.m */; };
+		06F7D45D2AA17C8F00F1EEA0 /* CXMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F7D45B2AA17C8F00F1EEA0 /* CXMessageCell.m */; };
 		2444C942AA30D7D96403E159 /* Pods_CXTableViewKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B471E5883DB14248C0347B70 /* Pods_CXTableViewKit_Example.framework */; };
 		4A124802B845B47D23BCE96F /* Pods_CXTableViewKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924B17E370A441FD874B1C08 /* Pods_CXTableViewKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,7 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		156874092BC9EB0D00F457D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		06F7D4582AA17C8F00F1EEA0 /* CXMessageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMessageItem.h; sourceTree = "<group>"; };
+		06F7D4592AA17C8F00F1EEA0 /* CXMessageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMessageItem.m; sourceTree = "<group>"; };
+		06F7D45A2AA17C8F00F1EEA0 /* CXMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMessageCell.h; sourceTree = "<group>"; };
+		06F7D45B2AA17C8F00F1EEA0 /* CXMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMessageCell.m; sourceTree = "<group>"; };
+		156874092BC9EB0D00F457D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4EC217BEAEA060CF72FDFAA7 /* Pods-CXTableViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXTableViewKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CXTableViewKit_Tests/Pods-CXTableViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CXTableViewKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXTableViewKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +70,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		924B17E370A441FD874B1C08 /* Pods_CXTableViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXTableViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B471E5883DB14248C0347B70 /* Pods_CXTableViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXTableViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E84DD34B7B771B273841C364 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F2D9BE3A485A3EFBA5D766A4 /* CXTableViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CXTableViewKit.podspec; path = ../CXTableViewKit.podspec; sourceTree = "<group>"; };
+		E84DD34B7B771B273841C364 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F2D9BE3A485A3EFBA5D766A4 /* CXTableViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXTableViewKit.podspec; path = ../CXTableViewKit.podspec; sourceTree = "<group>"; };
 		FF67B79C6F8AA928F40872E7 /* Pods-CXTableViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXTableViewKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CXTableViewKit_Example/Pods-CXTableViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,10 @@
 		6003F593195388D20070C39A /* Example for CXTableViewKit */ = {
 			isa = PBXGroup;
 			children = (
+				06F7D45A2AA17C8F00F1EEA0 /* CXMessageCell.h */,
+				06F7D45B2AA17C8F00F1EEA0 /* CXMessageCell.m */,
+				06F7D4582AA17C8F00F1EEA0 /* CXMessageItem.h */,
+				06F7D4592AA17C8F00F1EEA0 /* CXMessageItem.m */,
 				6003F59C195388D20070C39A /* CXAppDelegate.h */,
 				6003F59D195388D20070C39A /* CXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +203,6 @@
 				4EC217BEAEA060CF72FDFAA7 /* Pods-CXTableViewKit_Tests.debug.xcconfig */,
 				77E40410B3FC3D2AAA5D9ED8 /* Pods-CXTableViewKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shenchunxing;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 56H687J9FX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +316,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CXTableViewKit_Example/Pods-CXTableViewKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CXTableViewKit/CXTableViewKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CXTableViewKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,7 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F7D45D2AA17C8F00F1EEA0 /* CXMessageCell.m in Sources */,
 				6003F59E195388D20070C39A /* CXAppDelegate.m in Sources */,
+				06F7D45C2AA17C8F00F1EEA0 /* CXMessageItem.m in Sources */,
 				6003F5A7195388D20070C39A /* CXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -449,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,9 +511,11 @@
 			baseConfigurationReference = 72CD192E0D64C72FE8FAC8DF /* Pods-CXTableViewKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56H687J9FX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXTableViewKit/CXTableViewKit-Prefix.pch";
 				INFOPLIST_FILE = "CXTableViewKit/CXTableViewKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +529,11 @@
 			baseConfigurationReference = FF67B79C6F8AA928F40872E7 /* Pods-CXTableViewKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56H687J9FX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXTableViewKit/CXTableViewKit-Prefix.pch";
 				INFOPLIST_FILE = "CXTableViewKit/CXTableViewKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
